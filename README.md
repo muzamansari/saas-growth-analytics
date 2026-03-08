@@ -56,7 +56,7 @@ The dataset is structured as a relational database with multiple linked tables.
 
 Customers create subscriptions, which generate invoices and payments. Subscriptions can churn or change plans over time.
 
-![ER Diagram](docs/database_schema.png.png.png)
+![ER Diagram](docs/er_diagram.png)
 
 Example relationship flow:
 Customers → Subscriptions → Invoices
