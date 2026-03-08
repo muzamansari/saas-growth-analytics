@@ -39,13 +39,12 @@ CHURN_REASONS = ["price", "product_fit", "competitor", "budget", "other"]
 
 
 
-DB_CONFIG = {
-    "host": "localhost",
-    "database": "saas_analytics",
-    "user": "postgres",
-    "password": "2580"
+db_config = {
+    "host": os.getenv("DB_HOST"),
+    "database": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD")
 }
-
 SIMULATION_START = date(2023, 1, 1)
 SIMULATION_END = date(2025, 12, 31)
 
