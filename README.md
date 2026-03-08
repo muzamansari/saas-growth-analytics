@@ -1,7 +1,3 @@
-Good. A strong **README** is the first thing people see on GitHub, so it should clearly explain the project, tools, and workflow. Below is a **complete professional README** you can paste into your repository.
-
----
-
 # SaaS Subscription Analytics Project
 
 This project simulates a real SaaS (Software-as-a-Service) business environment and demonstrates how data analysts analyze subscription-based companies using modern data tools.
@@ -60,10 +56,9 @@ The dataset is structured as a relational database with multiple linked tables.
 
 Customers create subscriptions, which generate invoices and payments. Subscriptions can churn or change plans over time.
 
-(Add your ER diagram image here)
+![ER Diagram](docs/database_schema.png.png.png)
 
 Example relationship flow:
-
 Customers → Subscriptions → Invoices
 Subscriptions → Payments
 Subscriptions → Churn Events
@@ -111,10 +106,6 @@ saas-subscription-analytics
 └── README.md
 ```
 
-This structure reflects a professional analytics workflow with separate folders for data, analysis, scripts, and documentation.
-
----
-
 # Key Analytics Performed
 
 ## Monthly Recurring Revenue (MRR)
@@ -147,7 +138,7 @@ Customer churn trends
 Subscription plan distribution
 Customer cohort behavior
 
-(Add dashboard screenshot here)
+![Dashboard](docs/dashboard_preview.png)
 
 ---
 
