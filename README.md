@@ -66,6 +66,16 @@ Subscriptions → Plan Changes
 
 ---
 
+
+## Dataset
+
+The synthetic SaaS dataset used in this project is publicly available on Kaggle.
+
+Kaggle Dataset:
+https://www.kaggle.com/datasets/ansarimuzammil/synthetic-saas-subscription-dataset
+
+
+
 # Project Structure
 
 ```
