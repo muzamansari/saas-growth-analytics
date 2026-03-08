@@ -21,6 +21,9 @@ Thumbs.db
 # Logs
 *.log
 
+
+.env
+
 # Large data files you may not want in Git
 # Uncomment if datasets become large
 # data/raw/*

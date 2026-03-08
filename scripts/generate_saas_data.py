@@ -23,6 +23,10 @@ import psycopg2
 import random
 from datetime import date, timedelta
 from dateutil.relativedelta import relativedelta
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 PAYMENT_FAILURE_RATE = 0.07
 SIMULATION_END = date(2025, 12, 31)
